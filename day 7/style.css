@@ -1,0 +1,44 @@
+.p1 {
+   border: 1px solid blue;
+}
+
+.p2 {
+    text-align: center;
+    border-style: dashed;
+    border-width: medium;
+    border-color: blue;
+}
+
+.p3 {
+    text-align: center;
+    border-style: double;
+    border-width: thick;
+    border-color: blue;
+}
+
+.p4 {
+    text-align: center;
+    border-style: dotted;
+    border-width: thin;
+    border-color: blue;
+}
+
+.div1,.div2,.div3,.div4{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 300px;
+}
+.div1{
+    background-color: rgb(87, 87, 211);
+}
+.div2{
+    background-color: rgb(146, 146, 188);
+}
+.div3{
+    background-color: rgb(87, 87, 211);
+}
+.div4{
+    background-color: rgb(87, 87, 211);
+}

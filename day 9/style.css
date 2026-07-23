@@ -1,0 +1,166 @@
+    @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Dancing+Script:wght@400..700&family=GFS+Didot&family=Italiana&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Ovo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+   
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+ body {
+        background-color: #fbf3ef;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-family: sora, sans-serif;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .container {
+        border-radius: 20px;
+        background-color: white;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .logo-wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .logo {
+        font-size: 45px;
+        font-weight: 700;
+        background: linear-gradient(rgb(214, 224, 66), rgb(59, 186, 147));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    img {
+        height: 20px;
+        width: 20px;
+    }
+
+    li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 50px;
+        background-color: rgb(252, 247, 244);
+    }
+
+    .heading {
+        margin: 15px;
+    }
+
+    .menulist {
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    li:hover {
+        background-color: rgb(190, 190, 225);
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    .header {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 317px;
+        padding-left: 10px;
+    }
+
+    .header-wraper {
+        width: 774px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .para {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .bellicon {
+        padding: 10px;
+        background-color: #a9734a;
+        border-radius: 10px;
+    }
+
+    .name {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .details {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .user-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    input {
+        padding: 10px;
+        border: #fbf3ef;
+        border-radius: 5px;
+    }
+    .meta-header{
+        height: 42px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .meta-wraper{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+    }
+    .e-header{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .button{
+        background-color: #3bba93;
+        padding:10px 20px;
+        border-radius: 10px;
+    }
+    .fileicon{
+         padding: 10px;
+        background-color: #a9734a;
+        border-radius: 10px;
+    }

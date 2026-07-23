@@ -1,0 +1,44 @@
+.fixed{
+    font-size: 30px;
+    border: 2px solid black;
+    position: fixed;
+    margin: 40px 20px;
+    top: 50px;
+    left: 25px;
+    color: red;
+}
+p{
+    font-size: 30px;
+    border: 2px dashed blue;
+}
+.relative{
+    height: 500px;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+}
+.absolute{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    color: aliceblue;
+    background-color: navy;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+   
+}
+
+.sticky{
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    border: 2px dotted black;
+    position: sticky;
+    top: 30%;
+    right: 30%;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navigation {
+    height: 100px;
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar {
+    width: 962px;
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+
+}
+
+.navlinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 64px;
+    /* padding-left: 10px; */
+
+}
+
+.logo {
+    width: 200px;
+}
+
+.icons {
+    display: flex;
+    gap: 32px;
+}
+
+.button {
+    padding: 15px 30px;
+    border-radius: 24px;
+    background-color: #E3D3BC;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    height: 750px;
+    padding: 200px 300px;
+
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-heading {
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.active {
+    color: #804600;
+}
+
+.hero-sub {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.primary-btn {
+    padding: 15px 30px;
+    border-radius: 24px;
+    background-color: #E3D3BC;
+}
+
+.secondary-btn {
+    padding: 15px 30px;
+    border-radius: 24px;
+    border: 2px solid #f5f2ef;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: -350px;
+}
+.about-title {
+    height: 750px;
+    padding: 100px 300px;
+    background-color: #E3D3BC;
+    display: flex;
+    justify-content: space-between;
+    align-items: first  baseline;
+}
+
+.about-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.about-sub {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.about-intro {
+    height: 750px;
+    padding: 0px 200px 100px;
+    position: relative;
+    bottom: 450px;
+    border-radius: 30px;
+}
+
+.about-img {
+    height: 750px;
+    background-image: url(./assets/aboutimage.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-icon{
+    padding: 30px;
+    border-radius: 50px;
+    background-color: white;
+}

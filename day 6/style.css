@@ -1,0 +1,17 @@
+.para{
+    color: rgb(255, 255, 255);
+    /* background-color: beige; */
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+body{
+    background-image: url(./assets/642b9748-ba7c-4789-a5b3-9035fe7c9c1f.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
